@@ -5,6 +5,7 @@ const preferDefault = m => m && m.default || m
 
 
 exports.components = {
+  "component---cache-dev-404-page-js": hot(preferDefault(require("/www/sites/SuperProps - React Next Landing Page Templates/SuperProps/packages/landing-gatsby/.cache/dev-404-page.js"))),
   "component---src-pages-404-js": hot(preferDefault(require("/www/sites/SuperProps - React Next Landing Page Templates/SuperProps/packages/landing-gatsby/src/pages/404.js"))),
   "component---src-pages-agency-js": hot(preferDefault(require("/www/sites/SuperProps - React Next Landing Page Templates/SuperProps/packages/landing-gatsby/src/pages/agency.js"))),
   "component---src-pages-app-js": hot(preferDefault(require("/www/sites/SuperProps - React Next Landing Page Templates/SuperProps/packages/landing-gatsby/src/pages/app.js"))),

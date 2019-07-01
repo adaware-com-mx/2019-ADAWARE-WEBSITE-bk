@@ -8,11 +8,8 @@ import Card from 'reusecore/src/elements/Card';
 import Image from 'reusecore/src/elements/Image';
 import FeatureBlock from '../../../components/FeatureBlock';
 import Container from '../../../components/UI/Container';
-import QualitySectionWrapper from './qualitySection.style';
-import { QUALITY_ITEMS } from '../../../data/Agency';
-
-
-import FeatureImage from '../../../assets/image/agency/surface-studio.png';
+import SolutionSectionWrapper from './solutionSection.style';
+import { SOLUTION_ITEMS, SOLUCION_PIC } from '../../../data/SaasTwo';
 
 const QualitySection = ({
   row,
@@ -29,7 +26,7 @@ const QualitySection = ({
   iconStyle,
 }) => {
   return (
-    <QualitySectionWrapper id="qualitySection">
+    <SolutionSectionWrapper id="qualitySection">
       <Container>
         <Box className="row" {...row}>
           <Box className="col" {...col} {...textArea}>
@@ -50,7 +47,7 @@ const QualitySection = ({
           </Box>
         </Box>
         <Box className="row" {...row} {...textArea}>
-          {QUALITY_ITEMS.map((feature, index) => (
+          {SOLUTION_ITEMS.map((feature, index) => (
             <Box
               className="col"
               {...featureCol}
@@ -74,13 +71,13 @@ const QualitySection = ({
           <Box className="col" {...col} {...imageArea}>
             <Card {...imageWrapper}>
               <Fade right delay={90}>
-                <Image src={FeatureImage} alt="Quality" />
+                <Image src={SOLUCION_PIC.image} alt="Soluciones ADAWARE" />
               </Fade>
             </Card>
           </Box>
         </Box>
       </Container>
-    </QualitySectionWrapper>
+    </SolutionSectionWrapper>
   );
 };
 

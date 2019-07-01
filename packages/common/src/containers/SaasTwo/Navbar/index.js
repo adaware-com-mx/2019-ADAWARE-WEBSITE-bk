@@ -33,14 +33,14 @@ const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
           <Logo
             href="#"
             logoSrc={LogoImage}
-            title="Portfolio"
+            title="ADAWARE,"
             logoStyle={logoStyle}
             className="main-logo"
           />
           <Logo
             href="#"
             logoSrc={LogoImageAlt}
-            title="Portfolio"
+            title="ADAWARE,"
             logoStyle={logoStyle}
             className="logo-alt"
           />
@@ -50,9 +50,9 @@ const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
               menuItems={MENU_ITEMS}
               offset={-70}
             />
-            <Link href="#">
+            <Link href="/ride">
               <a className="navbar_button">
-                <Button {...button} title="GET STARTED" />
+                <Button {...button} title="COMIENZA AQUÍ" />
               </a>
             </Link>
             <Drawer
@@ -68,9 +68,9 @@ const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
                 drawerClose={true}
                 offset={-100}
               />
-              <Link href="#">
+              <Link href="/ride">
                 <a className="navbar_drawer_button">
-                  <Button {...button} title="GET STARTED" />
+                  <Button {...button} title="COMIENZA AQUÍ" />
                 </a>
               </Link>
             </Drawer>
@@ -101,7 +101,7 @@ Navbar.defaultProps = {
     width: '100%',
   },
   logoStyle: {
-    maxWidth: ['120px', '130px'],
+    maxWidth: ['150px', '140px'],
   },
   button: {
     type: 'button',

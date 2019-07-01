@@ -16,6 +16,8 @@ import AuthorOne from '../../assets/image/saasTwo/author-1.jpg';
 import AuthorTwo from '../../assets/image/saasTwo/author-2.jpg';
 import AuthorThree from '../../assets/image/saasTwo/author-3.jpg';
 
+import solucionImage from '../../assets/image/saasTwo/solucion-image.png';
+
 import { ic_monetization_on } from 'react-icons-kit/md/ic_monetization_on';
 import { ic_settings } from 'react-icons-kit/md/ic_settings';
 import { pieChart } from 'react-icons-kit/icomoon/pieChart';
@@ -23,27 +25,27 @@ import { briefcase } from 'react-icons-kit/fa/briefcase';
 
 export const MENU_ITEMS = [
   {
-    label: 'Home',
+    label: 'Inicio',
     path: '#banner_section',
     offset: '0',
   },
   {
-    label: 'Feature',
+    label: 'Distribuidor CONTPAQi',
     path: '#feature_section',
     offset: '0',
   },
   {
-    label: 'Pricing',
+    label: 'Nosotros',
     path: '#pricing_section',
     offset: '0',
   },
   {
-    label: 'Testimonial',
+    label: 'Productos',
     path: '#testimonial_section',
     offset: '0',
   },
   {
-    label: 'FAQ',
+    label: 'Servicios',
     path: '#faq_section',
     offset: '0',
   },
@@ -52,23 +54,57 @@ export const MENU_ITEMS = [
 export const PROCESS_ITEMS = [
   {
     image: Process1,
-    title: 'Download our app',
+    title: 'Finanzas y Contabilidad',
     description:
-      'Get your blood tests delivered at home collect a sample from the news Get your blood tests delivered with terms.',
+      '¿La empresa no cuenta con un sistema integral y muchos procesos contables y actualizaciones se realizan de forma manual?',
   },
   {
     image: Process2,
-    title: 'Create a free account',
+    title: 'Informes y estadísticas',
     description:
-      'Get your blood tests delivered at home collect a sample from the news Get your blood tests delivered with terms.',
+      '¿En el momento de redactar un informe, son interminables las hojas de cálculo con información inconsistente?',
   },
   {
     image: Process3,
-    title: 'Now Start your journey',
+    title: 'Administración de la Nómina',
     description:
-      'Get your blood tests delivered at home collect a sample from the news Get your blood tests delivered with terms.',
+      'Se acerca el fin de mes, aún hay tiempo de llegar a tus metas ¿Y la nómina es una carga tediosa que aveces conduce a errores?',
   },
 ];
+
+export const SOLUCION_PIC = { image: solucionImage };
+
+export const SOLUTION_ITEMS = [
+  {
+    id: 1,
+    icon: 'flaticon-security',
+    title: 'Confianza',
+    description:
+      'By using Search Engine Optimization, You will get more Clients.',
+  },
+  {
+    id: 2,
+    icon: 'flaticon-pencil-case',
+    title: 'Profesionalidad',
+    description:
+      'We respect our customer opinions and deals with them with perfect wireframing.',
+  },
+  {
+    id: 3,
+    icon: 'flaticon-ruler',
+    title: 'Economía',
+    description:
+      'We provide the best UI/UX Design by following the latest trends of the market .',
+  },
+  {
+    id: 4,
+    icon: 'flaticon-briefing',
+    title: 'Innovación',
+    description:
+      'Proper Content Management is important to find out the real clients for your agencies .',
+  },
+];
+
 
 export const MONTHLY_PRICING_TABLE = [
   {

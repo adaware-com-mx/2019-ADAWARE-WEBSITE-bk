@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const QualitySectionWrapper = styled.section`
+const SolutionSectionWrapper = styled.section`
   padding: 110px 0 60px;
   min-height: 600px;
   overflow: hidden;
@@ -120,4 +120,4 @@ const QualitySectionWrapper = styled.section`
   }
 `;
 
-export default QualitySectionWrapper;
+export default SolutionSectionWrapper;

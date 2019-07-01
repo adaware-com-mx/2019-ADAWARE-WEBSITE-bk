@@ -2,6 +2,7 @@
 const preferDefault = m => m && m.default || m
 
 exports.components = {
+  "component---cache-dev-404-page-js": () => import("/www/sites/SuperProps - React Next Landing Page Templates/SuperProps/packages/landing-gatsby/.cache/dev-404-page.js" /* webpackChunkName: "component---cache-dev-404-page-js" */),
   "component---src-pages-404-js": () => import("/www/sites/SuperProps - React Next Landing Page Templates/SuperProps/packages/landing-gatsby/src/pages/404.js" /* webpackChunkName: "component---src-pages-404-js" */),
   "component---src-pages-agency-js": () => import("/www/sites/SuperProps - React Next Landing Page Templates/SuperProps/packages/landing-gatsby/src/pages/agency.js" /* webpackChunkName: "component---src-pages-agency-js" */),
   "component---src-pages-app-js": () => import("/www/sites/SuperProps - React Next Landing Page Templates/SuperProps/packages/landing-gatsby/src/pages/app.js" /* webpackChunkName: "component---src-pages-app-js" */),
