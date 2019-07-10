@@ -119,260 +119,118 @@ export const AWARDS = [
 
 export const PORTFOLIO_SHOWCASE = [
   {
-    title: 'DESIGN',
+    title: 'CONTPAQi® Contabilidad',
     portfolioItem: [
       {
-        title: 'Canada Media Site',
+        title: 'CONTPAQi® Contabilidad',
         description:
-          "An effective and immersive user experience is what catches the attention and spreads a clear message. That's why we attach great importance to the fact that ergonomics serves the design, and that this design is innovative and neat.",
+          "Facilita la captura, registro y contabilización de tu información fiscal y financiera, a través del sistema favorito de los Contadores.",
         image: PortfolioImage1,
-        link: '#',
-        featuredIn: 'AWWWARDS',
-        featuredLink: '#',
-        view: '4.5K',
-        love: '1.5K',
-        feedback: '1.2K',
+        link: '/contpaqi-contabilidad',
+        featuredIn: '2019-Julio-03',
+        featuredLink: 'http://adaware.com.mx/productos.php',
+        view: '11.6.0',
+        love: '',
+        feedback: '',
         buildWith: [
           {
-            content: 'React JS',
+            content: 'Contable',
           },
           {
-            content: 'Next JS',
+            content: 'Fiscal',
           },
           {
-            content: 'Styled Component',
-          },
-        ],
-      },
-      {
-        title: 'RedQ, Inc. mobile app',
-        description:
-          "An effective and immersive user experience is what catches the attention and spreads a clear message. That's why we attach great importance to the fact that ergonomics serves the design, and that this design is innovative and neat.",
-        image: PortfolioImage2,
-        link: '#',
-        featuredIn: 'AppStore',
-        featuredLink: '#',
-        view: '8.5K',
-        love: '5.5K',
-        feedback: '3.2K',
-        buildWith: [
-          {
-            content: 'React Native',
-          },
-          {
-            content: 'Firebase',
-          },
-          {
-            content: 'Styled Component',
+            content: 'Financiero',
           },
         ],
       },
     ],
   },
   {
-    title: 'DEVELOPMENT',
+    title: 'CONTPAQi® Nómina',
     portfolioItem: [
       {
-        title: 'Canada Media Site',
+        title: 'CONTPAQi® Nómina',
         description:
-          "An effective and immersive user experience is what catches the attention and spreads a clear message. That's why we attach great importance to the fact that ergonomics serves the design, and that this design is innovative and neat.",
+          "Cumple en tiempo y forma con todas las obligaciones de ley en materia de sueldos y salarios como CFDI 3.3, IMSS, Infonavit e impuestos.",
         image: PortfolioImage1,
-        link: '#',
-        featuredIn: 'AWWWARDS',
-        featuredLink: '#',
-        view: '4.5K',
-        love: '1.5K',
-        feedback: '1.2K',
+        link: '/contpaqi-nomina',
+        featuredIn: '2019-Junio-26',
+        featuredLink: 'http://adaware.com.mx/productos.php',
+        view: '11.4.1',
+        love: '',
+        feedback: '',
         buildWith: [
           {
-            content: 'React JS',
+            content: 'CFDI 3.3',
           },
           {
-            content: 'Next JS',
+            content: 'ISR e IMSS',
           },
           {
-            content: 'Styled Component',
-          },
-        ],
-      },
-      {
-        title: 'RedQ, Inc. mobile app',
-        description:
-          "An effective and immersive user experience is what catches the attention and spreads a clear message. That's why we attach great importance to the fact that ergonomics serves the design, and that this design is innovative and neat.",
-        image: PortfolioImage2,
-        link: '#',
-        featuredIn: 'AppStore',
-        featuredLink: '#',
-        view: '8.5K',
-        love: '5.5K',
-        feedback: '3.2K',
-        buildWith: [
-          {
-            content: 'React Native',
-          },
-          {
-            content: 'Firebase',
-          },
-          {
-            content: 'Styled Component',
+            content: 'Impuestos',
           },
         ],
       },
     ],
   },
   {
-    title: 'ANIMATION',
+    title: 'CONTPAQi® Bancos',
     portfolioItem: [
       {
-        title: 'Canada Media Site',
+        title: 'CONTPAQi® Bancos',
         description:
-          "An effective and immersive user experience is what catches the attention and spreads a clear message. That's why we attach great importance to the fact that ergonomics serves the design, and that this design is innovative and neat.",
+          "Cuida y haz crecer tu flujo de efectivo, a través de este sistema que te ayuda a tener visión del dinero que ingresa y egresa de tu empresa. Administra el flujo de efectivo a través de proyecciones de gastos e ingresos, modificación de fechas probables de pago y clasificación de documentos",
         image: PortfolioImage1,
-        link: '#',
-        featuredIn: 'AWWWARDS',
-        featuredLink: '#',
-        view: '4.5K',
-        love: '1.5K',
-        feedback: '1.2K',
+        link: '/contpaqi-bancos',
+        featuredIn: '2019-Julio-03',
+        featuredLink: 'http://adaware.com.mx/productos.php',
+        view: '11.6.0',
+        love: '',
+        feedback: '',
         buildWith: [
           {
-            content: 'React JS',
+            content: 'Cobranza',
           },
           {
-            content: 'Next JS',
+            content: 'Conciliación',
           },
           {
-            content: 'Styled Component',
-          },
-        ],
-      },
-      {
-        title: 'RedQ, Inc. mobile app',
-        description:
-          "An effective and immersive user experience is what catches the attention and spreads a clear message. That's why we attach great importance to the fact that ergonomics serves the design, and that this design is innovative and neat.",
-        image: PortfolioImage2,
-        link: '#',
-        featuredIn: 'AppStore',
-        featuredLink: '#',
-        view: '8.5K',
-        love: '5.5K',
-        feedback: '3.2K',
-        buildWith: [
-          {
-            content: 'React Native',
-          },
-          {
-            content: 'Firebase',
-          },
-          {
-            content: 'Styled Component',
+            content: 'Ingresos/Gastos',
           },
         ],
       },
     ],
   },
   {
-    title: 'TV ADVERTISEMENT',
+    title: 'CONTPAQi® XML En Línea +',
     portfolioItem: [
       {
-        title: 'Canada Media Site',
+        title: 'CONTPAQi® XML En Línea +',
         description:
-          "An effective and immersive user experience is what catches the attention and spreads a clear message. That's why we attach great importance to the fact that ergonomics serves the design, and that this design is innovative and neat.",
+          "Ayuda a tus clientes a cumplir con sus obligaciones fiscales, recuperando todos los XML de las facturas emitidas y recibidas. Busca y recupera los XML de las facturas, conectándote al portal del SAT.",
         image: PortfolioImage1,
-        link: '#',
-        featuredIn: 'AWWWARDS',
-        featuredLink: '#',
-        view: '4.5K',
-        love: '1.5K',
-        feedback: '1.2K',
+        link: '/contpaqi-xml-en-linea',
+        featuredIn: '2018-Diciembre-07',
+        featuredLink: 'http://adaware.com.mx/productos.php',
+        view: '2.0.7',
+        love: '',
+        feedback: '',
         buildWith: [
           {
-            content: 'React JS',
+            content: 'Descargas ilimitadas XML',
           },
           {
-            content: 'Next JS',
+            content: 'Gestión',
           },
           {
-            content: 'Styled Component',
-          },
-        ],
-      },
-      {
-        title: 'RedQ, Inc. mobile app',
-        description:
-          "An effective and immersive user experience is what catches the attention and spreads a clear message. That's why we attach great importance to the fact that ergonomics serves the design, and that this design is innovative and neat.",
-        image: PortfolioImage2,
-        link: '#',
-        featuredIn: 'AppStore',
-        featuredLink: '#',
-        view: '8.5K',
-        love: '5.5K',
-        feedback: '3.2K',
-        buildWith: [
-          {
-            content: 'React Native',
-          },
-          {
-            content: 'Firebase',
-          },
-          {
-            content: 'Styled Component',
+            content: 'XML de Facturas',
           },
         ],
       },
     ],
   },
-  {
-    title: 'MARKETING',
-    portfolioItem: [
-      {
-        title: 'Canada Media Site',
-        description:
-          "An effective and immersive user experience is what catches the attention and spreads a clear message. That's why we attach great importance to the fact that ergonomics serves the design, and that this design is innovative and neat.",
-        image: PortfolioImage1,
-        link: '#',
-        featuredIn: 'AWWWARDS',
-        featuredLink: '#',
-        view: '4.5K',
-        love: '1.5K',
-        feedback: '1.2K',
-        buildWith: [
-          {
-            content: 'React JS',
-          },
-          {
-            content: 'Next JS',
-          },
-          {
-            content: 'Styled Component',
-          },
-        ],
-      },
-      {
-        title: 'RedQ, Inc. mobile app',
-        description:
-          "An effective and immersive user experience is what catches the attention and spreads a clear message. That's why we attach great importance to the fact that ergonomics serves the design, and that this design is innovative and neat.",
-        image: PortfolioImage2,
-        link: '#',
-        featuredIn: 'AppStore',
-        featuredLink: '#',
-        view: '8.5K',
-        love: '5.5K',
-        feedback: '3.2K',
-        buildWith: [
-          {
-            content: 'React Native',
-          },
-          {
-            content: 'Firebase',
-          },
-          {
-            content: 'Styled Component',
-          },
-        ],
-      },
-    ],
-  },
+
 ];
 
 export const PROCESS_STEPS = [

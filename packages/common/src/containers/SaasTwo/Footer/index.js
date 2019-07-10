@@ -32,8 +32,8 @@ const Footer = ({
               title="Hosting"
               logoStyle={logoStyle}
             />
-            <Text content="hello@isomorphic.com" {...textStyle} />
-            <Text content="+97 0267 5923" {...textStyle} />
+            <Text content="hola@adaware.com.mx" {...textStyle} />
+            <Text content="+52 (55) 3640-5410" {...textStyle} />
           </Box>
           {/* End of footer logo column */}
           <Box {...colTwo}>

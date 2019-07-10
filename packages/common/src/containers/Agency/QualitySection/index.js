@@ -9,8 +9,8 @@ import Image from 'reusecore/src/elements/Image';
 import FeatureBlock from '../../../components/FeatureBlock';
 import Container from '../../../components/UI/Container';
 import QualitySectionWrapper from './qualitySection.style';
-import { QUALITY_ITEMS } from '../../../data/Agency';
 
+import data from '../../../data/Agency';
 
 import FeatureImage from '../../../assets/image/agency/surface-studio.png';
 
@@ -50,7 +50,7 @@ const QualitySection = ({
           </Box>
         </Box>
         <Box className="row" {...row} {...textArea}>
-          {QUALITY_ITEMS.map((feature, index) => (
+          {data.qualityFeature.map((feature, index) => (
             <Box
               className="col"
               {...featureCol}

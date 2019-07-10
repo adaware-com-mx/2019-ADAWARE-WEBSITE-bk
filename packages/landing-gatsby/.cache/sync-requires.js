@@ -9,6 +9,8 @@ exports.components = {
   "component---src-pages-404-js": hot(preferDefault(require("/www/sites/SuperProps - React Next Landing Page Templates/SuperProps/packages/landing-gatsby/src/pages/404.js"))),
   "component---src-pages-agency-js": hot(preferDefault(require("/www/sites/SuperProps - React Next Landing Page Templates/SuperProps/packages/landing-gatsby/src/pages/agency.js"))),
   "component---src-pages-app-js": hot(preferDefault(require("/www/sites/SuperProps - React Next Landing Page Templates/SuperProps/packages/landing-gatsby/src/pages/app.js"))),
+  "component---src-pages-contpaqi-contabilidad-js": hot(preferDefault(require("/www/sites/SuperProps - React Next Landing Page Templates/SuperProps/packages/landing-gatsby/src/pages/contpaqi-contabilidad.js"))),
+  "component---src-pages-contpaqi-js": hot(preferDefault(require("/www/sites/SuperProps - React Next Landing Page Templates/SuperProps/packages/landing-gatsby/src/pages/contpaqi.js"))),
   "component---src-pages-crypto-js": hot(preferDefault(require("/www/sites/SuperProps - React Next Landing Page Templates/SuperProps/packages/landing-gatsby/src/pages/crypto.js"))),
   "component---src-pages-hosting-js": hot(preferDefault(require("/www/sites/SuperProps - React Next Landing Page Templates/SuperProps/packages/landing-gatsby/src/pages/hosting.js"))),
   "component---src-pages-index-js": hot(preferDefault(require("/www/sites/SuperProps - React Next Landing Page Templates/SuperProps/packages/landing-gatsby/src/pages/index.js"))),

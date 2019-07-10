@@ -25,6 +25,16 @@
         "path": "/app/"
     },
     {
+        "componentChunkName": "component---src-pages-contpaqi-contabilidad-js",
+        "jsonName": "contpaqi-contabilidad-e8e",
+        "path": "/contpaqi-contabilidad/"
+    },
+    {
+        "componentChunkName": "component---src-pages-contpaqi-js",
+        "jsonName": "contpaqi-f30",
+        "path": "/contpaqi/"
+    },
+    {
         "componentChunkName": "component---src-pages-crypto-js",
         "jsonName": "crypto-80a",
         "path": "/crypto/"

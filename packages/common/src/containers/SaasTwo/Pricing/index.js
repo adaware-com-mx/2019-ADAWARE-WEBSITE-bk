@@ -101,21 +101,21 @@ const PricingSection = ({
     <Box {...sectionWrapper} id="pricing_section">
       <Container>
         <Box {...secTitleWrapper}>
-          <Text {...secText} content="PRICING PLAN" />
+          <Text {...secText} content="LICENCIAS ANUALES" />
           <Heading
             {...secHeading}
-            content="What’s our monthly pricing subscription"
+            content="CONTPAQi te ofrece licencias anuales de las soluciones:"
           />
           <PricingButtonWrapper>
             <Button
-              title="Monthly Plan"
+              title="Contables"
               className={activeStatus ? 'active-item' : ''}
               onClick={() =>
                 setState({ data: MONTHLY_PRICING_TABLE, active: true })
               }
             />
             <Button
-              title="Annual Plan"
+              title="Comerciales"
               className={activeStatus === false ? 'active-item' : ''}
               onClick={() =>
                 setState({ data: YEARLY_PRICING_TABLE, active: false })
@@ -226,7 +226,7 @@ PricingSection.defaultProps = {
     fontSize: '14px',
     letterSpacing: '0.15em',
     fontWeight: '700',
-    color: '#2aa275',
+    color: '#f15a24',
     mb: '5px',
   },
   secHeading: {
@@ -282,7 +282,7 @@ PricingSection.defaultProps = {
     pl: '10px',
     pr: '10px',
     bg: '#fff',
-    color: '#2aa275',
+    color: '#f15a24',
     colors: 'primaryWithBg',
     width: '222px',
     maxWidth: '100%',

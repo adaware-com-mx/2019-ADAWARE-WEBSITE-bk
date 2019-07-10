@@ -11,7 +11,7 @@ import Container from '../../../components/UI/Container';
 import SolutionSectionWrapper from './solutionSection.style';
 import { SOLUTION_ITEMS, SOLUCION_PIC } from '../../../data/SaasTwo';
 
-const QualitySection = ({
+const SolutionSection = ({
   row,
   col,
   title,
@@ -26,7 +26,7 @@ const QualitySection = ({
   iconStyle,
 }) => {
   return (
-    <SolutionSectionWrapper id="qualitySection">
+    <SolutionSectionWrapper id="solutionSection">
       <Container>
         <Box className="row" {...row}>
           <Box className="col" {...col} {...textArea}>
@@ -51,7 +51,7 @@ const QualitySection = ({
             <Box
               className="col"
               {...featureCol}
-              key={`quality_feature-${index}`}
+              key={`solution_feature-${index}`}
             >
               <FeatureBlock
                 icon={<i className={feature.icon} />}
@@ -81,7 +81,7 @@ const QualitySection = ({
   );
 };
 
-QualitySection.propTypes = {
+SolutionSection.propTypes = {
   row: PropTypes.object,
   col: PropTypes.object,
   featureCol: PropTypes.object,
@@ -90,44 +90,44 @@ QualitySection.propTypes = {
   button: PropTypes.object,
 };
 
-QualitySection.defaultProps = {
-  // Quality section row default style
+SolutionSection.defaultProps = {
+  // Solution section row default style
   row: {
     flexBox: true,
     flexWrap: 'wrap',
     ml: '-15px',
     mr: '-15px',
   },
-  // Quality section iamge row default style
+  // Solution section iamge row default style
   imageAreaRow: {
     flexDirection: 'row-reverse',
   },
-  // Quality section col default style
+  // Solution section col default style
   col: {
     pr: '15px',
     pl: '15px',
   },
-  // Quality feature col default style
+  // Solution feature col default style
   featureCol: {
     width: [1, 1, 1 / 2],
     pr: '15px',
     pl: '15px',
   },
-  // Quality section text area default style
+  // Solution section text area default style
   textArea: {
     width: [1, '100%', '100%', '70%', '64%'],
   },
-  // Quality section image area default style
+  // Solution section image area default style
   imageArea: {
     width: [1, '100%', '100%', '30%', '38%'],
     flexBox: true,
     flexDirection: 'row-reverse',
   },
-  // Quality section image wrapper default style
+  // Solution section image wrapper default style
   imageWrapper: {
     boxShadow: 'none',
   },
-  // Solucion - Quality section title default style
+  // Solucion - Solution section title default style
   title: {
     fontSize: ['26px', '32px', '36px', '40px', '40px'],
     fontWeight: '400',
@@ -137,11 +137,11 @@ QualitySection.defaultProps = {
     lineHeight: '1.25',
   },
 
-  // Quality section description default style
+  // Solution section description default style
   description: {
-    fontSize: '16px',
+    fontSize: ['16px', '16px', '16px', '18px', '18px'],
     color: '#343d48cc',
-    lineHeight: '2.1',
+    lineHeight: '1.5',
     mb: '33px',
   },
   // feature icon default style
@@ -149,11 +149,11 @@ QualitySection.defaultProps = {
     width: '54px',
     height: '54px',
     borderRadius: '50%',
-    bg: '#93d26e',
+    bg: '#9090A5',
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
-    fontSize: '24px',
+    fontSize: '30px',
     color: '#ffffff',
     overflow: 'hidden',
     mt: '6px',
@@ -177,4 +177,4 @@ QualitySection.defaultProps = {
   },
 };
 
-export default QualitySection;
+export default SolutionSection;

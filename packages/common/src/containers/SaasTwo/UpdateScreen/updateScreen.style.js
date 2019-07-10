@@ -3,9 +3,9 @@ import styled from 'styled-components';
 const SectionWrapper = styled.section`
   padding: 100px 0 0 0;
   background: linear-gradient(
-    35deg,
-    rgb(147, 249, 185) 0%,
-    rgb(29, 151, 108) 100%
+    35deg, 
+    rgb(93, 132, 187) 0%, 
+    rgb(10, 46, 117) 100%
   );
   @media (max-width: 990px) {
     padding: 80px 0 0 0;

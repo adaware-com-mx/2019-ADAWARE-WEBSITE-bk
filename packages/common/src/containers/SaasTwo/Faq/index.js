@@ -38,8 +38,8 @@ const FaqSection = ({
     <Box {...sectionWrapper} id="faq_section">
       <Container>
         <Box {...secTitleWrapper}>
-          <Text {...secText} content="FREQUENTLY ASK QUESTION" />
-          <Heading {...secHeading} content="Want to ask something from us?" />
+          <Text {...secText} content="PREGUNTAS FRECUENTES" />
+          <Heading {...secHeading} content="¿Quieres preguntar algo de nosotros?" />
         </Box>
         <Box {...row}>
           <Box {...col}>
@@ -81,7 +81,7 @@ const FaqSection = ({
             <Box {...buttonWrapper}>
               <Link href="#">
                 <a>
-                  <Button {...button} title="EXPLORE FORUM" />
+                  <Button {...button} title="EXPLORA MÁS PREGUNTAS FRECUENTES" />
                 </a>
               </Link>
             </Box>
@@ -121,7 +121,7 @@ FaqSection.defaultProps = {
     fontSize: '14px',
     letterSpacing: '0.15em',
     fontWeight: '700',
-    color: '#2aa275',
+    color: '#F15A24',
     mb: '5px',
   },
   secHeading: {

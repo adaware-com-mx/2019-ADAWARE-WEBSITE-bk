@@ -41,21 +41,6 @@ const SolutionSectionWrapper = styled.section`
           margin-left: 6px;
         }
       }
-      &:before,
-      &:after {
-        content: '';
-        width: 24px;
-        height: 100%;
-        position: absolute;
-      }
-      &:before {
-        transform: rotate(45deg);
-        background-color: rgba(255, 255, 255, 0.15);
-      }
-      &:after {
-        transform: rotate(-45deg);
-        background-color: rgba(0, 0, 0, 0.05);
-      }
     }
   }
 

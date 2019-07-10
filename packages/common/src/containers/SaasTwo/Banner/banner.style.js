@@ -20,7 +20,7 @@ export const BannerWrapper = styled.section`
     linear-gradient(
       35deg, 
       rgb(3, 56, 117) 0%, 
-      rgb(10, 46, 117) 100%);
+      rgb(15, 100, 135) 100%);
   background-size: cover;
   background-position: top center;
   overflow: hidden;
