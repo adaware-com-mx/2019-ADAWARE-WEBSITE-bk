@@ -134,7 +134,7 @@ InfoSection.defaultProps = {
   },
   description: {
     fontSize: ['15px', '16px', '16px', '16px', '16px'],
-    color: '#343d48cc',
+    color: '#343d48',
     lineHeight: '1.75',
     mb: '33px',
   },

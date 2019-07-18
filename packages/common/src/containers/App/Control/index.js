@@ -154,7 +154,7 @@ ControllSection.defaultProps = {
     content:
       'You can deploy your site with firebase or Now.sh with some simple process. The deployment is made easy for our customers and according to their needs.',
     fontSize: '16px',
-    color: '#343d48cc',
+    color: '#343d48',
     lineHeight: '1.75',
     mb: '33px',
     maxWidth: ['100%', '100%', '100%', '440px', '440px'],

@@ -25,9 +25,24 @@
         "path": "/app/"
     },
     {
+        "componentChunkName": "component---src-pages-contpaqi-bancos-js",
+        "jsonName": "contpaqi-bancos-0a9",
+        "path": "/contpaqi-bancos/"
+    },
+    {
         "componentChunkName": "component---src-pages-contpaqi-contabilidad-js",
         "jsonName": "contpaqi-contabilidad-e8e",
         "path": "/contpaqi-contabilidad/"
+    },
+    {
+        "componentChunkName": "component---src-pages-contpaqi-nomina-js",
+        "jsonName": "contpaqi-nomina-5bc",
+        "path": "/contpaqi-nomina/"
+    },
+    {
+        "componentChunkName": "component---src-pages-contpaqi-xml-en-linea-js",
+        "jsonName": "contpaqi-xml-en-linea-948",
+        "path": "/contpaqi-xml-en-linea/"
     },
     {
         "componentChunkName": "component---src-pages-contpaqi-js",
@@ -40,9 +55,19 @@
         "path": "/crypto/"
     },
     {
+        "componentChunkName": "component---cache-dev-404-page-js",
+        "jsonName": "dev-404-page-5f9",
+        "path": "/dev-404-page/"
+    },
+    {
         "componentChunkName": "component---src-pages-hosting-js",
         "jsonName": "hosting-203",
         "path": "/hosting/"
+    },
+    {
+        "componentChunkName": "component---src-pages-nosotros-js",
+        "jsonName": "nosotros-7be",
+        "path": "/nosotros/"
     },
     {
         "componentChunkName": "component---src-pages-page-2-js",
@@ -53,6 +78,11 @@
         "componentChunkName": "component---src-pages-portfolio-js",
         "jsonName": "portfolio-964",
         "path": "/portfolio/"
+    },
+    {
+        "componentChunkName": "component---src-pages-productos-js",
+        "jsonName": "productos-e86",
+        "path": "/productos/"
     },
     {
         "componentChunkName": "component---src-pages-ride-js",

@@ -92,7 +92,7 @@ PartnerSection.defaultProps = {
   },
   description: {
     fontSize: '16px',
-    color: '#343d48cc',
+    color: '#343d48',
     lineHeight: '1.75',
     mb: '33px',
   },

@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Link from 'next/link';
+import { Link } from "gatsby"
 import Tabs, { TabPane } from 'rc-tabs';
 import TabContent from 'rc-tabs/lib/TabContent';
 import ScrollableInkTabBar from 'rc-tabs/lib/ScrollableInkTabBar';
@@ -96,8 +96,8 @@ const PortfolioShowcase = ({
                           </Box>
                           <Box {...portfolioDetails}>
                             <PortfolioLink>
-                              <Link href={portfolioItem.link || '#'}>
-                                <a><Button title="MÁS INFORMACIÓN" {...btnStyle} /></a>
+                              <Link to={portfolioItem.link || '#'}>
+                                <Button title="MÁS INFORMACIÓN" {...btnStyle} />
                               </Link>
                             </PortfolioLink>
                             <Heading
@@ -130,9 +130,9 @@ const PortfolioShowcase = ({
                                 <MetaItem className="meta_featured">
                                   Actualización:
                                   <Link
-                                    href={portfolioItem.featuredLink || '#'}
+                                    to={portfolioItem.featuredLink || '#'}
                                   >
-                                    <a>{portfolioItem.featuredIn}</a>
+                                    {portfolioItem.featuredIn}
                                   </Link>
                                 </MetaItem>
                               ) : (
@@ -224,8 +224,8 @@ const PortfolioShowcase = ({
                           </Box>
                           <Box {...portfolioDetails}>
                             <PortfolioLink>
-                              <Link href={portfolioItem.link || '#'}>
-                                <a><Button title="MÁS INFORMACIÓN" {...btnStyle} /></a>
+                              <Link to={portfolioItem.link || '#'}>
+                                <Button title="MÁS INFORMACIÓN" {...btnStyle} />
                               </Link>
                             </PortfolioLink>
                             <Heading
@@ -258,9 +258,9 @@ const PortfolioShowcase = ({
                                 <MetaItem className="meta_featured">
                                   Actualización:
                                   <Link
-                                    href={portfolioItem.featuredLink || '#'}
+                                    to={portfolioItem.featuredLink || '#'}
                                   >
-                                    <a>{portfolioItem.featuredIn}</a>
+                                    {portfolioItem.featuredIn}
                                   </Link>
                                 </MetaItem>
                               ) : (
@@ -344,7 +344,7 @@ PortfolioShowcase.defaultProps = {
   },
   secDescription: {
     fontSize: ['15px', '15px', '15px', '16px', '16px'],
-    color: '#343d48cc',
+    color: '#343d48',
     lineHeight: '2',
     mb: '33px',
   },

@@ -143,7 +143,7 @@ QualitySection.defaultProps = {
   // Quality section description default style
   description: {
     fontSize: '16px',
-    color: '#343d48cc',
+    color: '#343d48',
     lineHeight: '2.1',
     mb: '33px',
   },
@@ -176,7 +176,7 @@ QualitySection.defaultProps = {
   featureDescription: {
     fontSize: '15px',
     lineHeight: '1.84',
-    color: '#343d48cc',
+    color: '#343d48',
   },
 };
 

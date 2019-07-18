@@ -79,7 +79,7 @@ const FaqSection = ({
               </Accordion>
             </FaqWrapper>
             <Box {...buttonWrapper}>
-              <Link href="#">
+              <Link href="https://contpaqi.managed-otrs.com/otrs/public.pl">
                 <a>
                   <Button {...button} title="EXPLORA MÁS PREGUNTAS FRECUENTES" />
                 </a>
@@ -166,7 +166,7 @@ FaqSection.defaultProps = {
     borderRadius: '4px',
     pl: ['22px'],
     pr: ['22px'],
-    colors: 'secondaryWithBg',
+    colors: 'primary',
     minWidth: '150px',
   },
 };

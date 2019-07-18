@@ -143,7 +143,7 @@ ServicesSection.defaultProps = {
   featureItemDes: {
     fontSize: '15px',
     lineHeight: '1.84',
-    color: '#343d48cc',
+    color: '#343d48',
     mb: '0',
   },
 };

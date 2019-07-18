@@ -140,7 +140,7 @@ SolutionSection.defaultProps = {
   // Solution section description default style
   description: {
     fontSize: ['16px', '16px', '16px', '18px', '18px'],
-    color: '#343d48cc',
+    color: '#343d48',
     lineHeight: '1.5',
     mb: '33px',
   },
@@ -173,7 +173,7 @@ SolutionSection.defaultProps = {
   featureDescription: {
     fontSize: '15px',
     lineHeight: '1.84',
-    color: '#343d48cc',
+    color: '#343d48',
   },
 };
 

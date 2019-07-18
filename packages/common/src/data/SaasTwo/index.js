@@ -52,30 +52,88 @@ import PortfolioImage8 from '../../assets/image/ContpaqProcesosContables/portfol
 import PortfolioImage9 from '../../assets/image/ContpaqProcesosContables/portfolio-9.jpg';
 import PortfolioImage10 from '../../assets/image/ContpaqProcesosContables/portfolio-10.jpg';
 
-export const MENU_ITEMS = [
+import BannerImage1 from '../../assets/image/contpaqiContabilidad/banner-image.png';
+import BannerImage2 from '../../assets/image/contpaqiNominas/banner-image.png';
+import BannerImage3 from '../../assets/image/contpaqiBancos/banner-image.png';
+import BannerImage4 from '../../assets/image/contpaqiXMLenLinea/banner-image.png';
+import BannerImage5 from '../../assets/image/contpaqiFacturaElectronica/banner-image.png';
+import BannerImage6 from '../../assets/image/contpaqiCFDIenLinea/banner-image.png';
+import BannerImage7 from '../../assets/image/contpaqiComercial/banner-image.png';
+import BannerImage8 from '../../assets/image/contpaqiProduccion/banner-image.png';
+import BannerImage9 from '../../assets/image/contpaqiPDV/banner-image.png';
+import BannerImage10 from '../../assets/image/contpaqiCRM/banner-image.png';
+
+import ProdImage1 from '../../assets/image/productos/prodimage1.jpg';
+import ProdImage2 from '../../assets/image/productos/prodimage2.jpg';
+import ProdImage3 from '../../assets/image/productos/prodimage3.jpg';
+
+export const PRODUCTOS = [
   {
-    label: 'Inicio',
-    path: '#banner_section',
-    offset: '0',
+    id: 1,
+    title: 'CONTPAQi',
+    thumbnail_url: ProdImage1,
+    date: 'Administración, Contable, Productividad',
+    postLink: '/contpaqi',
   },
   {
+    id: 2,
+    title: 'Acronis Cloud Backup',
+    thumbnail_url: ProdImage2,
+    date: 'Respaldo de información ',
+    postLink: '/acronis',
+  },
+  {
+    id: 3,
+    title: 'Gigas Cloud Datacenter',
+    thumbnail_url: ProdImage3,
+    date: 'Servidores en la nube',
+    postLink: '/gigas',
+  },
+];
+
+
+export const ABOUTUS = [
+  {
+    id: 1,
+    title: 'Tiempo de respuesta record',
+    icon: 'flaticon-next',
+  },
+  {
+    id: 2,
+    title: 'Atención personalizada a equipos.',
+    icon: 'flaticon-next',
+  },
+  {
+    id: 3,
+    title: 'Uso de las Tecnologías de la Información.',
+    icon: 'flaticon-next',
+  },
+  {
+    id: 4,
+    title: 'Asesoría orientada al cliente.',
+    icon: 'flaticon-next',
+  },
+];
+
+export const MENU_ITEMS = [
+  {
     label: 'Distribuidor CONTPAQi',
-    path: '#feature_section',
+    path: '/contpaqi',
     offset: '0',
   },
   {
     label: 'Nosotros',
-    path: '#pricing_section',
+    path: '/nosotros',
     offset: '0',
   },
   {
     label: 'Productos',
-    path: '#testimonial_section',
+    path: '/productos',
     offset: '0',
   },
   {
     label: 'Servicios',
-    path: '#faq_section',
+    path: '/servicios',
     offset: '0',
   },
 ];
@@ -349,7 +407,8 @@ export const FAQ_DATA = [
   },
   {
     title: 'Instalación de las aplicaciones, ¿cómo actualizar o instalar los sistema CONTPAQi?',
-    description:
+      description: 
+
       'Con nuestras Pólizas de Servicio, obtienes la manera más fácil y cómoda de asegurar el funcionamiento óptimo de tu software así como de obtener el respaldo de expertos profesionales, con asesoría y soporte para tu sistema con un amplio horario.',
   },
   {
@@ -369,11 +428,11 @@ export const FOOTER_WIDGET = [
     title: 'Nosotros',
     menuItems: [
       {
-        url: '#',
+        url: '/nosotros',
         text: 'Sobre nosotros',
       },
       {
-        url: '#',
+        url: '/avisodeprivacidad.pdf',
         text: 'Aviso de privacidad',
       },
     ],
@@ -382,15 +441,15 @@ export const FOOTER_WIDGET = [
     title: 'Servicios',
     menuItems: [
       {
-        url: '#',
+        url: '/servicios',
         text: 'Contrato anual de Soporte',
       },
       {
-        url: '#',
+        url: '/servicios',
         text: 'Pólizas Remotas ',
       },
       {
-        url: '#',
+        url: '/servicios',
         text: 'Pólizas Presenciales',
       },
     ],
@@ -399,16 +458,12 @@ export const FOOTER_WIDGET = [
     title: 'CONTPAQi®',
     menuItems: [
       {
-        url: '#',
+        url: '/contpaqi',
         text: 'Productos Contables',
       },
       {
-        url: '#',
+        url: '/contpaqi',
         text: 'Productos Comerciales',
-      },
-      {
-        url: '#',
-        text: 'Aplicaciones',
       },
     ],
   },
@@ -416,57 +471,18 @@ export const FOOTER_WIDGET = [
     title: 'Seguridad TI',
     menuItems: [
       {
-        url: '#',
+        url: '/productos',
         text: 'Acronis Cloud Backup',
       },
       {
-        url: '#',
+        url: '/productos',
         text: 'Gigas Cloud Datacenter',
       },
       {
-        url: '#',
+        url: '/productos',
         text: 'Adaware Conectores',
       },
     ],
-  },
-];
-
-export const FEATURES = [
-  {
-    icon: FeatureIcon1,
-    title: 'App Development',
-    description:
-      'Get your proof tests delivered home collect a sample from the news get design.',
-  },
-  {
-    icon: FeatureIcon2,
-    title: '10 Times Award',
-    description:
-      'Get your proof tests delivered home collect a sample from the news get design.',
-  },
-  {
-    icon: FeatureIcon3,
-    title: 'Cloud Storage',
-    description:
-      'Get your proof tests delivered home collect a sample from the news get design.',
-  },
-  {
-    icon: FeatureIcon4,
-    title: 'Customization',
-    description:
-      'Get your proof tests delivered home collect a sample from the news get design.',
-  },
-  {
-    icon: FeatureIcon5,
-    title: 'UX Planning',
-    description:
-      'Get your proof tests delivered home collect a sample from the news get design.',
-  },
-  {
-    icon: FeatureIcon6,
-    title: 'Customer Support',
-    description:
-      'Get your proof tests delivered home collect a sample from the news get design.',
   },
 ];
 
@@ -489,6 +505,75 @@ export const SCREENSHOTS = [
   {
     icon: briefcase,
     title: 'Cobranza',
+    image: Screenshot4,
+  },
+];
+
+export const SCREENSHOTS2 = [
+  {
+    icon: ic_monetization_on,
+    title: 'Emite CFDI',
+    image: Screenshot1,
+  },
+  {
+    icon: ic_settings,
+    title: 'Envía CFDI',
+    image: Screenshot2,
+  },
+  {
+    icon: pieChart,
+    title: 'Conciliación ISR',
+    image: Screenshot3,
+  },
+  {
+    icon: briefcase,
+    title: 'Contabilidad',
+    image: Screenshot4,
+  },
+];
+
+export const SCREENSHOTS3 = [
+  {
+    icon: ic_monetization_on,
+    title: 'Catálogos',
+    image: Screenshot1,
+  },
+  {
+    icon: ic_settings,
+    title: 'Conciliaciones',
+    image: Screenshot2,
+  },
+  {
+    icon: pieChart,
+    title: 'Retenciones',
+    image: Screenshot3,
+  },
+  {
+    icon: briefcase,
+    title: 'Categorización',
+    image: Screenshot4,
+  },
+];
+
+export const SCREENSHOTS4 = [
+  {
+    icon: ic_monetization_on,
+    title: 'Comprobantes',
+    image: Screenshot1,
+  },
+  {
+    icon: ic_settings,
+    title: 'Conexión SAT',
+    image: Screenshot2,
+  },
+  {
+    icon: ic_settings,
+    title: 'Visor',
+    image: Screenshot3,
+  },
+  {
+    icon: briefcase,
+    title: 'ADD',
     image: Screenshot4,
   },
 ];
@@ -560,6 +645,10 @@ export const PORTFOLIO_SHOWCASE = [
         view: '11.6.0',
         love: '',
         feedback: '',
+        BannerImage: BannerImage1,
+        Youtube: 'https://www.youtube.com/embed/wgBEeE9sKSQ',
+        subtitulo: 'CONTPAQi® Contabilidad, el sistema preferido de los contadores.',
+        
         buildWith: [
           {
             content: 'Contable',
@@ -588,6 +677,9 @@ export const PORTFOLIO_SHOWCASE = [
         view: '11.4.1',
         love: '',
         feedback: '',
+        BannerImage: BannerImage2,
+        Youtube: 'https://www.youtube.com/embed/82Avo4E7QGQ',
+        subtitulo: 'CONTPAQi® Nómina, el sistema para la administración de la nómina.',
         buildWith: [
           {
             content: 'CFDI 3.3',
@@ -616,6 +708,9 @@ export const PORTFOLIO_SHOWCASE = [
         view: '11.6.0',
         love: '',
         feedback: '',
+        BannerImage: BannerImage3,
+        Youtube: 'https://www.youtube.com/embed/_RhSx-Lx7Fc',
+        subtitulo: 'CONTPAQi® Bancos, el sistema que facilita la administración de tu flujo de efectivo.',
         buildWith: [
           {
             content: 'Cobranza',
@@ -644,6 +739,8 @@ export const PORTFOLIO_SHOWCASE = [
         view: '2.0.7',
         love: '',
         feedback: '',
+        BannerImage: BannerImage4,
+        Youtube: 'https://www.youtube.com/embed/82Avo4E7QGQ',
         buildWith: [
           {
             content: 'Cumplimiento',
@@ -678,6 +775,8 @@ export const PORTFOLIO_COMERCIAL = [
         view: '6.3.0',
         love: '',
         feedback: '',
+        BannerImage: BannerImage5,
+        Youtube: 'https://www.youtube.com/embed/82Avo4E7QGQ',
         buildWith: [
           {
             content: 'Folios',
@@ -706,6 +805,8 @@ export const PORTFOLIO_COMERCIAL = [
         view: '3.4.4',
         love: '',
         feedback: '',
+        BannerImage: BannerImage6,
+        Youtube: 'https://www.youtube.com/embed/82Avo4E7QGQ',
         buildWith: [
           {
             content: 'CFDI 3.3',
@@ -734,6 +835,8 @@ export const PORTFOLIO_COMERCIAL = [
         view: '4.5.1',
         love: '',
         feedback: '',
+        BannerImage: BannerImage7,
+        Youtube: 'https://www.youtube.com/embed/82Avo4E7QGQ',
         buildWith: [
           {
             content: 'Contable',
@@ -762,6 +865,8 @@ export const PORTFOLIO_COMERCIAL = [
         view: '3.1.0',
         love: '',
         feedback: '',
+        BannerImage: BannerImage8,
+        Youtube: 'https://www.youtube.com/embed/82Avo4E7QGQ',
         buildWith: [
           {
             content: 'Administra',
@@ -790,6 +895,8 @@ export const PORTFOLIO_COMERCIAL = [
         view: '4.2.0',
         love: '',
         feedback: '',
+        BannerImage: BannerImage9,
+        Youtube: 'https://www.youtube.com/embed/82Avo4E7QGQ',
         buildWith: [
           {
             content: 'CFDI',
@@ -818,6 +925,8 @@ export const PORTFOLIO_COMERCIAL = [
         view: '2019',
         love: '',
         feedback: '',
+        BannerImage: BannerImage10,
+        Youtube: 'https://www.youtube.com/embed/82Avo4E7QGQ',
         buildWith: [
           {
             content: 'Ventas',
@@ -834,3 +943,4 @@ export const PORTFOLIO_COMERCIAL = [
   },
 
 ];
+

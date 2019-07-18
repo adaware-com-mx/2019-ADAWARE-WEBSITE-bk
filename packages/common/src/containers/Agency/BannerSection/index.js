@@ -8,6 +8,7 @@ import FeatureBlock from '../../../components/FeatureBlock';
 import Container from '../../../components/UI/Container';
 import Particles from '../../Agency/Particle';
 import BannerWrapper, { DiscountLabel } from './bannerSection.style';
+import { Link } from "gatsby";
 
 const BannerSection = ({
   row,
@@ -37,7 +38,10 @@ const BannerSection = ({
         <Box className="row" {...row}>
           <Box className="col" {...col}>
             <DiscountLabel>
-              <Text content="25% Discount" {...discountAmount} />
+              <Link
+              to="/hosting">
+                <Text content="25% Discount" {...discountAmount} />
+              </Link>
               <Text content="on every first project budget" {...discountText} />
             </DiscountLabel>
             <FeatureBlock
@@ -95,7 +99,7 @@ BannerSection.defaultProps = {
   },
   description: {
     fontSize: '16px',
-    color: '#343d48cc',
+    color: '#343d48',
     lineHeight: '2.1',
     mb: '0',
   },

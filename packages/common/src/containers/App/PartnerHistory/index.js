@@ -117,7 +117,7 @@ PartnerHistory.defaultProps = {
     content:
       'You can trust us for any kind of services and some of the world class companies have also trusted us .',
     fontSize: '16px',
-    color: '#343d48cc',
+    color: '#343d48',
     lineHeight: '2.1',
     mb: '33px',
     textAlign: ['center', 'left'],

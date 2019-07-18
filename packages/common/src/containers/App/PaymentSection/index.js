@@ -163,7 +163,7 @@ PaymentSection.defaultProps = {
     content:
       'Security of our customer is our basic priority and we are best at it . So no need to worry about online payment and Transaction System .',
     fontSize: '16px',
-    color: '#343d48cc',
+    color: '#343d48',
     lineHeight: '2.1',
     mb: '33px',
     maxWidth: ['100%', '100%', '100%', '440px', '440px'],

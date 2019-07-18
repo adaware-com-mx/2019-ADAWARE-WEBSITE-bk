@@ -1,16 +1,18 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Link from 'next/link';
+import { Link } from 'gatsby';
 import Box from 'reusecore/src/elements/Box';
 import Text from 'reusecore/src/elements/Text';
 import Heading from 'reusecore/src/elements/Heading';
 import Logo from 'reusecore/src/elements/UI/Logo';
 import Container from '../../../components/UI/Container';
+import SocialProfile from '../SocialProfile';
 import FooterWrapper, { List, ListItem } from './footer.style';
 
+import { FOOTER_WIDGET, SOCIAL_PROFILES } from '../../../data/SaasTwo/index';
 import LogoImage from '../../../assets/image/saasTwo/logo.png';
 
-import { FOOTER_WIDGET } from '../../../data/SaasTwo';
+
 
 const Footer = ({
   row,
@@ -26,14 +28,16 @@ const Footer = ({
       <Container className="footer_container">
         <Box className="row" {...row}>
           <Box {...colOne}>
+            <Link to="/">
             <Logo
-              href="#"
               logoSrc={LogoImage}
-              title="Hosting"
+              title="ADAWARE"
               logoStyle={logoStyle}
             />
+            </Link>
             <Text content="hola@adaware.com.mx" {...textStyle} />
             <Text content="+52 (55) 3640-5410" {...textStyle} />
+            <SocialProfile items={SOCIAL_PROFILES} />
           </Box>
           {/* End of footer logo column */}
           <Box {...colTwo}>

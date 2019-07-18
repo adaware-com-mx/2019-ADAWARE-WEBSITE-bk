@@ -135,7 +135,7 @@ FeatureSection.defaultProps = {
   featureDescription: {
     fontSize: '15px',
     lineHeight: '1.75',
-    color: '#343d48cc',
+    color: '#343d48',
   },
 };
 

@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import Link from 'next/link';
+import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import NavbarWrapper from 'reusecore/src/elements/Navbar';
 import Drawer from 'reusecore/src/elements/Drawer';
@@ -30,27 +30,30 @@ const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
     <NavbarWrapper {...navbarStyle} className="saas_navbar">
       <Container>
         <Box {...row}>
+          
           <Logo
-            href="#"
+            href="/"
             logoSrc={LogoImage}
             title="ADAWARE,"
             logoStyle={logoStyle}
             className="main-logo"
           />
+          
           <Logo
-            href="#"
+            href="/"
             logoSrc={LogoImageAlt}
             title="ADAWARE,"
             logoStyle={logoStyle}
             className="logo-alt"
           />
+          
           <Box {...menuWrapper}>
             <ScrollSpyMenu
               className="main_menu"
               menuItems={MENU_ITEMS}
               offset={-70}
             />
-            <Link href="/ride">
+            <Link to="/ride">
               <a className="navbar_button">
                 <Button {...button} title="COMIENZA AQUÍ" />
               </a>
@@ -68,7 +71,7 @@ const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
                 drawerClose={true}
                 offset={-100}
               />
-              <Link href="/ride">
+              <Link to="/ride">
                 <a className="navbar_drawer_button">
                   <Button {...button} title="COMIENZA AQUÍ" />
                 </a>
@@ -101,7 +104,7 @@ Navbar.defaultProps = {
     width: '100%',
   },
   logoStyle: {
-    maxWidth: ['150px', '140px'],
+    maxWidth: ['150px', '180px'],
   },
   button: {
     type: 'button',

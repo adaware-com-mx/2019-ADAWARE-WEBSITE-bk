@@ -10,7 +10,7 @@ import {
   ContentWrapper,
 } from 'common/src/containers/SaasTwo/sassTwo.style';
 
-import Navbar from 'common/src/containers/ContpaqiContabilidad/Navbar';
+import Navbar from 'common/src/containers/SaasTwo/Navbar';
 import BannerSection from 'common/src/containers/ContpaqProcesosContables/Banner';
 import PortfolioShowcase from 'common/src/containers/ContpaqProcesosContables/PortfolioShowcase';
 

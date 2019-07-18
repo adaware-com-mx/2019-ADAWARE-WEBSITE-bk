@@ -1,7 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Text from '../../Text';
-import Link from '../../Link';
+// import Link from '../../Link';
+import { Link } from 'gatsby';
 import Image from '../../Image';
 
 const Logo = ({
@@ -14,15 +15,15 @@ const Logo = ({
   title,
   ...props
 }) => (
-  <Link {...props} {...logoWrapperStyle}>
+  <a {...props} {...logoWrapperStyle}>
     {withAchor ? (
-      <a {...anchorProps}>
+      <Link to='/'>
         {logoSrc ? (
           <Image src={logoSrc} alt={title} {...logoStyle} />
         ) : (
           <Text content={title} {...titleStyle} />
         )}
-      </a>
+      </Link>
     ) : (
       <>
         {logoSrc ? (
@@ -32,7 +33,7 @@ const Logo = ({
         )}
       </>
     )}
-  </Link>
+  </a>
 );
 
 Logo.propTypes = {
