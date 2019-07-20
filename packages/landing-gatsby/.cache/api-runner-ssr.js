@@ -6,10 +6,10 @@ var plugins = [{
       options: {"plugins":[]},
     },{
       plugin: require('/www/sites/SuperProps - React Next Landing Page Templates/SuperProps/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"name":"gatsby-starter-default","short_name":"starter","start_url":"/","background_color":"#663399","theme_color":"#663399","display":"minimal-ui","icon":"src/images/gatsby-icon.png"},
+      options: {"plugins":[],"name":"gatsby-starter-default","short_name":"starter","start_url":"/","background_color":"#663399","theme_color":"#663399","display":"minimal-ui","icon":"src/images/favicon.png"},
     },{
       plugin: require('/www/sites/SuperProps - React Next Landing Page Templates/SuperProps/node_modules/gatsby-plugin-prefetch-google-fonts/gatsby-ssr'),
-      options: {"plugins":[],"fonts":[{"family":"Roboto","variants":["100","100i","300","300i","400","400i","500","500i","700","700i","900","900i"]},{"family":"Poppins","variants":["300","400","500","600","700"]},{"family":"Lato","variants":["300","400","700"]},{"family":"Open Sans","variants":["300","400","700"]}]},
+      options: {"plugins":[],"fonts":[{"family":"Roboto","variants":["100","100i","300","300i","400","400i","500","500i","700","700i","900","900i"]},{"family":"Poppins","variants":["300","400","500","600","700"]},{"family":"Lato","variants":["300","400","700"]},{"family":"Open Sans","variants":["300","400","600","700","800"]}]},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [

@@ -20,14 +20,11 @@ import {
   VideoWrapper,
 } from './banner.style';
 
-import {
-  BannerImage1,
-  PORTFOLIO_SHOWCASE,
-}  from '../../../data/SaasTwo/index';
-
 import { ic_play_circle_filled } from 'react-icons-kit/md/ic_play_circle_filled';
 import { play } from 'react-icons-kit/entypo/play';
 
+import { PORTFOLIO_SHOWCASE }  from '../../../data/SaasTwo/index';
+const BannerImage = PORTFOLIO_SHOWCASE[2].portfolioItem[0].BannerImage; 
 
 // close button for modal
 const CloseModalButton = () => (
@@ -43,7 +40,7 @@ const ModalContent = () => (
   <VideoWrapper>
     <iframe
       title="Video"
-      src="https://www.youtube.com/embed/wgBEeE9sKSQ"
+      src={PORTFOLIO_SHOWCASE[2].portfolioItem[0].Youtube}
       frameBorder="0"
     />
   </VideoWrapper>
@@ -84,27 +81,24 @@ const BannerSection = ({
     <BannerWrapper id="banner_section">
       <TiltShape />
       <Container>
-      {PORTFOLIO_SHOWCASE.map((tabItem, index=1) => (
         <Box {...row}>
           <Box {...contentWrapper}>
             <DiscountWrapper>
               <DiscountLabel>
-                <Text {...discountAmount} content="2019-Julio-03" />
+                <Text {...discountAmount} content={PORTFOLIO_SHOWCASE[2].portfolioItem[0].featuredIn} />
                 <Text
                   {...discountText}
-                  content={tabItem.portfolioItem.featureIn}
+                  content={PORTFOLIO_SHOWCASE[2].portfolioItem[0].view}
                 />
               </DiscountLabel>
             </DiscountWrapper>
             <Heading
               {...title}
-              content="CONTPAQi® Contabilidad"
+              content={PORTFOLIO_SHOWCASE[2].portfolioItem[0].title}
             />
             <Text
               {...description}
-              content="Facilita la captura, registro y contabilización de tu información fiscal y financiera, a través del sistema favorito de los Contadores.
-
-              "
+              content={PORTFOLIO_SHOWCASE[2].portfolioItem[0].description}
             />
             <Box {...buttonWrapper}>
               <Button 
@@ -119,7 +113,7 @@ const BannerSection = ({
           <Box {...imageWrapper}>
             <Fade bottom>
               <VideoModal> 
-                <Image src={BannerImage1} alt="ADAWARE, Asesores" />
+                <Image src={BannerImage} alt="ADAWARE, Asesores" />
                 <PlayButton tabIndex="1000" onClick={handleVideoModal}>
                   <Icon icon={play} size={40} />
                 </PlayButton>
@@ -127,7 +121,6 @@ const BannerSection = ({
             </Fade>
           </Box>
         </Box>
-        ))}
       </Container>
     </BannerWrapper>
   );

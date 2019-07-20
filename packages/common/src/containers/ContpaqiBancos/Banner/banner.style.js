@@ -2,7 +2,7 @@ import styled, { keyframes } from 'styled-components';
 
 const Bubble = keyframes`
   0% {
-		box-shadow: 0 0 0 3px rgba(255,65,108,0.3);
+		box-shadow: 0 0 0 3px rgba(50,70,22,0.3);
 		opacity: 1;
 		transform: scale3d(1, 1, 1);
 	}
@@ -17,8 +17,8 @@ export const BannerWrapper = styled.section`
   padding: 150px 0 50px 0;
   background-image: linear-gradient(
     35deg, 
-    rgb(255, 114, 25) 0%, 
-    rgb(208, 93, 20) 100%
+    rgb(110, 160, 50) 0%, 
+    rgb(80, 116, 36) 100%
   );
   background-size: cover;
   background-position: top center;
@@ -44,7 +44,7 @@ export const DiscountLabel = styled.div`
   border-radius: 4em;
   padding: 9px 22px;
   margin-bottom: 22px;
-  background-color: rgba(122, 55,12, 0.5);
+  background-color: rgba(23,11,36, 0.5);
   @media (max-width: 575px) {
     padding: 7px 10px;
   }
@@ -63,8 +63,8 @@ export const VideoModal = styled.div`
     display: block;
     background: linear-gradient(
       -139deg,
-      rgb(255, 114, 25) 0%, 
-      rgb(208, 93, 20) 100%
+      rgb(110, 160, 50) 0%, 
+      rgb(80, 116, 36) 100%
     );
     opacity: 0.1;
     pointer-events: none;

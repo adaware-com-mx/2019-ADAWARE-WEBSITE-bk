@@ -24,5 +24,3 @@ exports.components = {
   "component---src-pages-saasmodern-js": () => import("/www/sites/SuperProps - React Next Landing Page Templates/SuperProps/packages/landing-gatsby/src/pages/saasmodern.js" /* webpackChunkName: "component---src-pages-saasmodern-js" */)
 }
 
-exports.data = () => import(/* webpackChunkName: "pages-manifest" */ "/www/sites/SuperProps - React Next Landing Page Templates/SuperProps/packages/landing-gatsby/.cache/data.json")
-
