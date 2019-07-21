@@ -23,6 +23,8 @@ build/Release
 # https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
 node_modules
 node_modules/
+*/node_modules/
+
 *.un~
 dist
 bin/published.js
@@ -35,7 +37,6 @@ bin/published.js
 */*/.DS_Store
 
 # public/
-node_modules/
 .cache/
 *.cache/
 */.cache/
@@ -47,7 +48,6 @@ yarn.lock
 package-lock.json
 */yarn.lock
 */package-lock.json
-node_modules
-*/node_modules
 
 packages/landing-gatsby/public/
+node_modules/.yarn-integrity
