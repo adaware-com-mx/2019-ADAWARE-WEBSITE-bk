@@ -51,3 +51,4 @@ package-lock.json
 
 packages/landing-gatsby/public/
 node_modules/.yarn-integrity
+.vscode/
