@@ -22,6 +22,7 @@ build/Release
 # Dependency directory
 # https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
 node_modules
+node_modules/
 *.un~
 dist
 bin/published.js
@@ -29,10 +30,16 @@ bin/published.js
 # Build Path of Test Fixtures
 .gatsby-context.js
 .DS_Store
+*.DS_Store
 */.DS_Store
+*/*/.DS_Store
+
 # public/
 node_modules/
 .cache/
+*.cache/
+*/.cache/
+*/*/.cache/
 .netlify
 
 # lock files
@@ -42,3 +49,5 @@ package-lock.json
 */package-lock.json
 node_modules
 */node_modules
+
+packages/landing-gatsby/public/
